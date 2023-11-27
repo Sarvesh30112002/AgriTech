@@ -1,0 +1,21 @@
+{
+    "data": [
+        {"id": "1000","name": "Week 1","description": "Product Description","image": "assets/demo/images/nature/nature1.jpg","height": 0,"inventoryStatus": "OUTOFSTOCK","week": 1, "points": 0, "uploaded": "NOTUPLOADED"},
+        {"id": "1001","name": "Week 2","description": "Product Description","image": "assets/demo/images/nature/nature2.jpg","height": 0,"inventoryStatus": "OUTOFSTOCK","week": 2, "points": 0, "uploaded": "NOTUPLOADED"},
+        {"id": "1002","name": "Week 3","description": "Product Description","image": "assets/demo/images/nature/nature3.jpg","height": 0,"inventoryStatus": "OUTOFSTOCK","week": 3, "points": 0, "uploaded": "NOTUPLOADED"},
+        {"id": "1003","name": "Week 4","description": "Product Description","image": "assets/demo/images/nature/nature4.jpg","height": 0,"inventoryStatus": "OUTOFSTOCK","week": 4, "points": 0, "uploaded": "NOTUPLOADED"},
+        {"id": "1004","name": "Week 5","description": "Product Description","image": "assets/demo/images/nature/nature5.jpg","height": 0,"inventoryStatus": "OUTOFSTOCK","week": 5, "points": 0, "uploaded": "NOTUPLOADED"},
+        {"id": "1005","name": "Week 6","description": "Product Description","image": "assets/demo/images/nature/nature6.jpg","height": 0,"inventoryStatus": "OUTOFSTOCK","week": 6, "points": 0, "uploaded": "NOTUPLOADED"},
+        {"id": "1006","name": "Week 7","description": "Product Description","image": "assets/demo/images/nature/nature7.jpg","height": 0,"inventoryStatus": "OUTOFSTOCK","week": 7, "points": 0, "uploaded": "NOTUPLOADED"},
+        {"id": "1007","name": "Week 8","description": "Product Description","image": "assets/demo/images/nature/nature8.jpg","height": 0,"inventoryStatus": "OUTOFSTOCK","week": 8, "points": 0, "uploaded": "NOTUPLOADED"},
+        {"id": "1000","name": "Week 9","description": "Product Description","image": "assets/demo/images/nature/nature1.jpg","height": 0,"inventoryStatus": "OUTOFSTOCK","week": 9, "points": 0, "uploaded": "NOTUPLOADED"},
+        {"id": "1001","name": "Week 10","description": "Product Description","image": "assets/demo/images/nature/nature2.jpg","height": 0,"inventoryStatus": "OUTOFSTOCK","week": 10, "points": 0, "uploaded": "NOTUPLOADED"},
+        {"id": "1002","name": "Week 11","description": "Product Description","image": "assets/demo/images/nature/nature3.jpg","height": 0,"inventoryStatus": "OUTOFSTOCK","week": 11, "points": 0, "uploaded": "NOTUPLOADED"},
+        {"id": "1003","name": "Week 12","description": "Product Description","image": "assets/demo/images/nature/nature4.jpg","height": 0,"inventoryStatus": "OUTOFSTOCK","week": 12, "points": 0, "uploaded": "NOTUPLOADED"},
+        {"id": "1004","name": "Week 13","description": "Product Description","image": "assets/demo/images/nature/nature5.jpg","height": 0,"inventoryStatus": "OUTOFSTOCK","week": 13, "points": 0, "uploaded": "NOTUPLOADED"},
+        {"id": "1005","name": "Week 14","description": "Product Description","image": "assets/demo/images/nature/nature6.jpg","height": 0,"inventoryStatus": "OUTOFSTOCK","week": 14, "points": 0, "uploaded": "NOTUPLOADED"},
+        {"id": "1006","name": "Week 15","description": "Product Description","image": "assets/demo/images/nature/nature7.jpg","height": 0,"inventoryStatus": "OUTOFSTOCK","week": 15, "points": 0, "uploaded": "NOTUPLOADED"},
+        {"id": "1007","name": "Week 16","description": "Product Description","image": "assets/demo/images/nature/nature8.jpg","height": 0,"inventoryStatus": "OUTOFSTOCK","week": 16, "points": 0, "uploaded": "NOTUPLOADED"}
+    ]
+}
+    

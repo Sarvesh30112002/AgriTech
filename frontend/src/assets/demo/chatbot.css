@@ -1,0 +1,28 @@
+.Chatbox .ChatboxContainer {
+  height: 70vh !important;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.Chatbox .ChatboxContainer h1 {
+  color: #ffc56d;
+}
+.Chatbox .ChatboxContainer h3 {
+  color: #ffc56d;
+}
+.Chatbox .ChatboxContainer p {
+  margin-top: 20px;
+}
+.Chatbox .ChatboxContainer button {
+  background: #ffc56d;
+}
+
+.Chatbot .ChatboxContainer .chatboxcontaineryo {
+  width: 500px !important;
+  margin: 30px auto;
+}
+.Chatbot .ChatboxContainer .chatboxcontaineryo .react-chatbot-kit-chat-btn-send-icon {
+  width: 30px !important;
+}/*# sourceMappingURL=chatbot.css.map */

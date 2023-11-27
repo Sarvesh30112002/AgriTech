@@ -1,0 +1,104 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Anviksh Testing Laboratory, Pune, Maharashtra",
+        "description": "Soil Testing Lab"
+      },
+      "geometry": {
+        "coordinates": [73.822440,18.490000],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bhoomi Geoservices Pvt Ltd, Pune, Maharashtra",
+        "description": "Soil Testing Lab"
+      },
+      "geometry": {
+        "coordinates": [73.939660, 18.452470],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Durocrete Engineering Services Pvt. Ltd",
+        "description": "Soil Testing Lab"
+      },
+      "geometry": {
+        "coordinates": [73.826200, 18.447660],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Ekdant Soil Testing and Pile Foundation",
+        "description": "Soil Testing Lab"
+      },
+      "geometry": {
+        "coordinates": [73.809420, 18.461320],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Laxmi GeoTech Services",
+        "description": "Soil Testing Lab"
+      },
+      "geometry": {
+        "coordinates": [73.970060, 18.578100],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Sheetal Analytical Lab",
+        "description": "Soil Testing Lab"
+      },
+      "geometry": {
+        "coordinates": [73.916748, 18.564960],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Cetrs Lab",
+        "description": "Soil Testing Lab"
+      },
+      "geometry": {
+        "coordinates": [73.838837, 18.627270],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Buildcon Material Testing",
+        "description": "Soil Testing Lab"
+      },
+      "geometry": {
+        "coordinates": [73.802544, 18.562120],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Hitech Lab",
+        "description": "Soil Testing Lab"
+      },
+      "geometry": {
+        "coordinates": [73.956610, 18.551980],
+        "type": "Point"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}

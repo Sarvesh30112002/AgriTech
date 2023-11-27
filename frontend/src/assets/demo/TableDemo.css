@@ -1,0 +1,10 @@
+.table-demo .p-datatable-frozen-tbody {
+  font-weight: bold;
+}
+.table-demo .p-datatable-scrollable .p-frozen-column {
+  font-weight: bold;
+}
+.table-demo .image-text {
+  vertical-align: middle;
+  margin-left: 0.5rem;
+}/*# sourceMappingURL=TableDemo.css.map */

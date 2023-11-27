@@ -1,0 +1,321 @@
+.block-viewer .block-section {
+  margin-bottom: 4rem;
+  overflow: hidden;
+}
+.block-viewer .block-header {
+  padding: 1rem 2rem;
+  background-color: var(--surface-section);
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border: 1px solid var(--surface-d);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.block-viewer .block-header .block-title {
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+}
+.block-viewer .block-header .block-title .badge-free {
+  border-radius: 4px;
+  padding: 0.25rem 0.5rem;
+  background-color: var(--orange-500);
+  color: white;
+  margin-left: 1rem;
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+.block-viewer .block-header .block-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  margin-left: 1rem;
+}
+.block-viewer .block-header .block-actions a, .block-viewer .block-header .block-actions button {
+  display: flex;
+  align-items: center;
+  margin-right: 0.75rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: 600;
+  border: 1px solid transparent;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+.block-viewer .block-header .block-actions a:last-child, .block-viewer .block-header .block-actions button:last-child {
+  margin-right: 0;
+}
+.block-viewer .block-header .block-actions a:not(.block-action-disabled):hover, .block-viewer .block-header .block-actions button:not(.block-action-disabled):hover {
+  background-color: var(--surface-c);
+}
+.block-viewer .block-header .block-actions a.block-action-active, .block-viewer .block-header .block-actions button.block-action-active {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+.block-viewer .block-header .block-actions a.block-action-copy i, .block-viewer .block-header .block-actions button.block-action-copy i {
+  color: var(--primary-color);
+  font-size: 1.25rem;
+}
+.block-viewer .block-header .block-actions a.block-action-disabled, .block-viewer .block-header .block-actions button.block-action-disabled {
+  opacity: 0.6;
+  cursor: auto !important;
+}
+.block-viewer .block-header .block-actions a i, .block-viewer .block-header .block-actions button i {
+  margin-right: 0.5rem;
+}
+.block-viewer .block-content {
+  padding: 0;
+  border: 1px solid var(--surface-d);
+  border-top: 0 none;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  overflow: hidden;
+}
+.block-viewer pre[class*=language-] {
+  margin: 0 !important;
+}
+.block-viewer pre[class*=language-]:before, .block-viewer pre[class*=language-]:after {
+  display: none !important;
+}
+.block-viewer pre[class*=language-] code {
+  border-left: 0 none !important;
+  box-shadow: none !important;
+  background: var(--surface-e) !important;
+  margin: 0;
+  color: var(--text-color);
+  font-size: 14px;
+  padding: 0 2rem !important;
+}
+.block-viewer pre[class*=language-] code .token.tag, .block-viewer pre[class*=language-] code .token.keyword {
+  color: #2196F3 !important;
+}
+.block-viewer pre[class*=language-] code .token.attr-name, .block-viewer pre[class*=language-] code .token.attr-string {
+  color: #2196F3 !important;
+}
+.block-viewer pre[class*=language-] code .token.attr-value {
+  color: #4CAF50 !important;
+}
+.block-viewer pre[class*=language-] code .token.punctuation {
+  color: var(--text-color);
+}
+.block-viewer pre[class*=language-] code .token.operator, .block-viewer pre[class*=language-] code .token.string {
+  background: transparent;
+}
+@media screen and (max-width: 575px) {
+  .block-viewer .block-header {
+    flex-direction: column;
+    align-items: start;
+  }
+  .block-viewer .block-header .block-actions {
+    margin-top: 1rem;
+    margin-left: 0;
+  }
+}
+
+.docs i:not([class~=pi]) {
+  background-color: transparent;
+  color: #2196f3;
+  font-family: Monaco, courier, monospace;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0 4px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  margin: 0 2px;
+  display: inline-flex;
+}
+.docs a {
+  font-weight: 500;
+}
+.docs pre[class*=language-]:before, .docs pre[class*=language-]:after {
+  display: none !important;
+}
+.docs pre[class*=language-] code {
+  border-left: 6px solid var(--surface-border) !important;
+  box-shadow: none !important;
+  background: var(--surface-ground) !important;
+  margin: 1em 0;
+  color: var(--text-color);
+  font-size: 14px;
+}
+.docs pre[class*=language-] .token.tag, .docs pre[class*=language-] .token.keyword {
+  color: #2196F3 !important;
+}
+.docs pre[class*=language-] .token.attr-name, .docs pre[class*=language-] .token.attr-string {
+  color: #2196F3 !important;
+}
+.docs pre[class*=language-] .token.attr-value {
+  color: #4CAF50 !important;
+}
+.docs pre[class*=language-] .token.punctuation {
+  color: var(--text-color);
+}
+.docs pre[class*=language-] .token.operator, .docs pre[class*=language-] .token.variable, .docs pre[class*=language-] .token.string {
+  background: transparent;
+}
+
+.media-demo .product-item .product-item-content {
+  border: 1px solid var(--surface-d);
+  border-radius: 3px;
+  margin: 0.3rem;
+  text-align: center;
+  padding: 2rem 0;
+}
+.media-demo .product-item .product-image {
+  width: 50%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.table-demo .p-datatable-frozen-tbody {
+  font-weight: bold;
+}
+.table-demo .p-datatable-scrollable .p-frozen-column {
+  font-weight: bold;
+}
+.table-demo .image-text {
+  vertical-align: middle;
+  margin-left: 0.5rem;
+}
+
+.timeline-demo .p-timeline-event-content,
+.timeline-demo .p-timeline-event-opposite {
+  line-height: 1;
+}
+@media screen and (max-width: 960px) {
+  .timeline-demo .customized-timeline .p-timeline-event:nth-child(even) {
+    flex-direction: row !important;
+  }
+  .timeline-demo .customized-timeline .p-timeline-event:nth-child(even) .p-timeline-event-content {
+    text-align: left !important;
+  }
+  .timeline-demo .customized-timeline .p-timeline-event-opposite {
+    flex: 0;
+  }
+  .timeline-demo .customized-timeline .p-card {
+    margin-top: 1rem;
+  }
+}
+
+.customer-badge,
+.product-badge,
+.order-badge {
+  border-radius: var(--border-radius);
+  padding: 0.25em 0.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+}
+
+.customer-badge.status-qualified {
+  background: #C8E6C9;
+  color: #256029;
+}
+.customer-badge.status-unqualified {
+  background: #FFCDD2;
+  color: #C63737;
+}
+.customer-badge.status-negotiation {
+  background: #FEEDAF;
+  color: #8A5340;
+}
+.customer-badge.status-new {
+  background: #B3E5FC;
+  color: #23547B;
+}
+.customer-badge.status-renewal {
+  background: #ECCFFF;
+  color: #694382;
+}
+.customer-badge.status-proposal {
+  background: #FFD8B2;
+  color: #805B36;
+}
+
+.product-badge {
+  border-radius: var(--border-radius);
+  padding: 0.25em 0.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+}
+.product-badge.status-instock {
+  background: #C8E6C9;
+  color: #256029;
+}
+.product-badge.status-outofstock {
+  background: #FFCDD2;
+  color: #C63737;
+}
+.product-badge.status-lowstock {
+  background: #FEEDAF;
+  color: #8A5340;
+}
+
+.order-badge {
+  border-radius: var(--border-radius);
+  padding: 0.25em 0.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+}
+.order-badge.order-delivered {
+  background: #C8E6C9;
+  color: #256029;
+}
+.order-badge.order-cancelled {
+  background: #FFCDD2;
+  color: #C63737;
+}
+.order-badge.order-pending {
+  background: #FEEDAF;
+  color: #8A5340;
+}
+.order-badge.order-returned {
+  background: #ECCFFF;
+  color: #694382;
+}
+
+.map-container {
+  height: 600px;
+}
+
+.p-messages-summary {
+  font-size: 2rem;
+}
+
+.Chatbox .ChatboxContainer {
+  height: 70vh !important;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.Chatbox .ChatboxContainer h1 {
+  color: #ffc56d;
+}
+.Chatbox .ChatboxContainer h3 {
+  color: #ffc56d;
+}
+.Chatbox .ChatboxContainer p {
+  margin-top: 20px;
+}
+.Chatbox .ChatboxContainer button {
+  background: #ffc56d;
+}
+
+.Chatbot .ChatboxContainer .chatboxcontaineryo {
+  width: 500px !important;
+  margin: 30px auto;
+}
+.Chatbot .ChatboxContainer .chatboxcontaineryo .react-chatbot-kit-chat-btn-send-icon {
+  width: 30px !important;
+}/*# sourceMappingURL=App.css.map */

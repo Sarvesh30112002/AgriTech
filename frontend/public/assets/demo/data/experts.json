@@ -1,0 +1,14 @@
+
+{
+    "data": [
+        {"id": "1000","code": "f230fh0g3","name": "Dr. G V Ramanjaneyulu ","description": "Center for Sustainable Agriculture","image": "farmer_expert_3.png","price": 65,"category": "Hyderabad","quantity": 24,"inventoryStatus": "INSTOCK","rating": 5, "available": "AVAILABLE"},
+        {"id": "1001","code": "nvklal433","name": "Dr. Dineshbhai Patel","description": "Sardar Patel Farm","image": "farmer_exp_2.jpg","price": 72,"category": "Ahmedabad","quantity": 61,"inventoryStatus": "INSTOCK","rating": 4, "available": "AVAILABLE"},
+        {"id": "1002","code": "zz21cz3c1","name": "Dr Rajinder Chaudhary","description": "MD University","image": "farmer_expert_3.png","price": 79,"category": "Rohtak","quantity": 2,"inventoryStatus": "OUTOFSTOCK","rating": 3, "available": "NOT AVAILABLE"},
+        {"id": "1003","code": "244wgerg2","name": "Dr Leena Kumari","description": "Kerala Agri University","image": "farmer_exp_1.jpg","price": 29,"category": "Alappuzha","quantity": 25,"inventoryStatus": "INSTOCK","rating": 5, "available": "AVAILABLE"},
+        {"id": "1004","code": "h456wer53","name": "Joy Daniel","description": "Institute for Integrate Rural Development","image": "farmer_expert_3.png","price": 15,"category": "Aurangabad","quantity": 73,"inventoryStatus": "OUTOFSTOCK","rating": 4, "available": "NOT AVAILABLE"},
+        {"id": "1005","code": "av2231fwg","name": "Ubai Husein","description": "Mumbai Organic Farmers","image": "farmer_exp_2.jpg","price": 120,"category": "Thane","quantity": 0,"inventoryStatus": "INSTOCK","rating": 4, "available": "AVAILABLE"},
+        {"id": "1006","code": "bib36pfvm","name": "Dr. Arun K. Sharma","description": "Central Arid Zone Research Institute","image": "farmer_expert_3.png","price": 32,"category": "Jodhpur","quantity": 5,"inventoryStatus": "INSTOCK","rating": 3, "available": "AVAILABLE"},
+        {"id": "1007","code": "mbvjkgip5","name": "Tapas Kumar Mandal","description": "Centre for Ecology and DRCSC","image": "farmer_exp_1.jpg","price": 34,"category": "Kolkata","quantity": 23,"inventoryStatus": "INSTOCK","rating": 5, "available": "AVAILABLE"}
+    ]
+}
+    
