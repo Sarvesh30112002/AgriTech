@@ -45,15 +45,7 @@ app.post('/crops', function(req, res) {
 
 app.post('/disease', upload.single('imageFile'), function(req, res) {
 
-    const flaskReq = request.post('http://127.0.0.1:5000/predict', function (err, resp, body) {
-        if (err) {
-          console.log('Error!');
-          console.log(err);
-        } else {
-          console.log('Disease prediction: ' + body);
-          res.send(body);
-        }
-      });
+    
       const form = flaskReq.form();
       form.append('file', fs.createReadStream(__dirname + '/' + req.file.path), {
         filename: 'imageFile.jpg',
@@ -81,17 +73,6 @@ app.post('/weeklyheight', upload.single('imageFile'), function(req, res) {
       });
 
 });
-
-app.post('/pricepredict', function(req, res) {
-
-    console.log(req.body);
-
-    var options = { 
-        method: 'POST', 
-        uri: 'http://127.0.0.1:5000/price', 
-        body: req.body.cropData, 
-        json: true // Automatically stringifies the body to JSON 
-    }; 
      
     //var returndata = "done"; 
     var sendrequest = request(options, function(error, response, body) {
