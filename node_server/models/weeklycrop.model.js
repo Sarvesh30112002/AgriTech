@@ -16,16 +16,6 @@ const weeklySchema = new Schema({
     height: {
         type: String
     },
-    weekNum: {
-        type: String
-    },
-    points: {
-        type: Number,
-        default: 0
-    },
-    imagePath: {
-        type: String,
-    },
   }]
 }, {
   timestamps: true
