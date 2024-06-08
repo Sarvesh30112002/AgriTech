@@ -19,11 +19,6 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 warnings.filterwarnings(action="ignore", category=FutureWarning)
 warnings.filterwarnings(action="ignore", category=UserWarning)
 
-app = Flask(__name__)
-
-APP_ROOT = os.path.dirname(os.path.abspath(__file__))
-app.config["upload_folder"] = "uploads"
-app.config["height_folder"] = "uploads/height"
 
 model = pickle.load(open("crop_recommendation_svm.pkl", "rb"))
 scaler = pickle.load(open("crop_recommendation_scaler.pkl", "rb"))
@@ -242,57 +237,6 @@ def height():
 
 
 """
-API endpoint to estimate price of 7 different plants from historical(2012-2019) data
-the problem is of time series prediction and model used is RandomforestRegressor
-"""
-
-#TRAINING OF PRICE PREDICTION MODEL WITH PICKLING
-'''
-df = pd.read_csv("C:\\Users\\91876\\Desktop\\AgriTech\\python_server\\Jute.csv")
-df.head()
-
-X = df.iloc[:, :-1].values
-Y = df.iloc[:, 3].values
-
-rfr = RandomForestRegressor(random_state=1)
-
-param_grid = {
-    "bootstrap": [True],
-    "max_depth": [5, 7, 10, None],
-    "max_features": ["auto", "log2"],
-    "n_estimators": [5, 6, 7, 8, 9, 10, 11, 12, 13, 15],
-}
-
-g_search = GridSearchCV(
-    estimator=rfr,
-    param_grid=param_grid,
-    cv=4,
-    n_jobs=-1,
-    verbose=0,
-    return_train_score=True,
-)
-
-g_search.fit(X, Y)
-print(g_search.best_params_)
-print(g_search.best_score_)
-
-rfr = RandomForestRegressor(
-    random_state=1, max_depth=7, max_features="log2", n_estimators=15
-)
-rfr.fit(X, Y)
-
-x = [5, 2012, 31.7]
-rfr.predict(np.array(x).reshape(1, -1))
-
-pickle.dump(
-    rfr,
-    open(
-        "C:\\Users\\91876\\Desktop\\AgriTech\\python_server\\jute_price_prediction.pkl",
-        "wb",
-    ),
-)
-'''
-
 
 @app.route("/price", methods=["POST"])
 def price():
