@@ -23,24 +23,7 @@ router.post("/addcrop", async (req, res) => {
   }
 });
 
-// Get Crop
-router.post("/getcrop", async (req, res) => {
-    try {
-      const { username } = req.body;
-  
-      const crops = await Weekly.find({username: username}).exec();
 
-      if(crops.length === 0) {
-        return res.status(401).json("No data found");
-      }
-  
-      res.json({heights: crops[0].heights});
-  
-    } catch (err) {
-      console.error(err.message);
-      res.status(500).json("Server error");
-    }
-  });
 
 
 // Delete Crop
